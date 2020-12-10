@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding-bottom: 0px;
+}
+
+@font-face{
+    font-family: Bazar;
+      src: url("../font/Bazar\ 500.ttf");
+}
+
+
+body{
+    background-color:#74B4B4 ;
+    background-size: cover;
+    background-position: center;
+    font-family: Bazar;
+    color:#74B4B4 ;
+}
+
+.menu-bar{
+    background-color:transparent;
+    text-align: center;
+    border-bottom: 0.1px groove ;
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 0%;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-bar ul li:hover{
+    background: #F6EDD8 ;
+    border-radius: 3px;
+}
+
+.none{
+    background: none;
+    border-radius: 3px;
+}
+
+.menu-bar.fa{
+    margin-right: 8px;
+}
+
+p{
+    text-align: center;
+    color:#F6EDD8;
+    font-family: Bazar;
+    font-size: 130px;
+    text-shadow: 0px 0px grey;
+    padding: 15px;
+}
+
+.img-slider{
+    width: 60%;
+    height: 400px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color:#F6EDD8 ;
+    left: 50%;
+    top: 70%;
+    background-size: 100% 100%;
+    border-top:8px solid white;
+    border-left: 8px solid white;
+    border-right:8px solid white ;
+    border-bottom: 40px solid white;
+    animation: slider 10s infinite linear;
+}
+
+    @keyframes slider {
+        0%{ background-color:#F6EDD8 ; }
+        35%{ background-color:#F6EDD8 ; }
+        75%{ background-color:#F6EDD8 ; }
+    }
+
+    .para-0{
+        position: absolute;
+        text-align: center;
+        color:#F6EDD8;
+        font-family: Bazar;
+        font-size: 25px;
+        padding: 15px;
+        left: 50%;
+        top: 110%;
+        transform: translate(-50%, -50%);
+
+    }
+    .para-1{
+        position: absolute;
+        text-align: center;
+        color:#F6EDD8;
+        font-family: Bazar;
+        font-size: 25px;
+        padding: 15px;
+        left: 50%;
+        top: 116%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .about-me{
+        width: 100%;
+        height: 150%;
+        background-color: #E0DBCB;
+    }
+
+    .a0-1{
+        color: black;
+        font-size: 100px;
+        text-shadow: 4px 4px grey;
+    }
+
+    .a0-2{
+        color:black;
+        padding-top: 0px ;
+        font-size: 20px;
+    }
+
+    .a0-3{
+        color:black;
+        padding-top: 0px ;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .about-me{
+        text-align: center;
+        border-bottom: 0.1px groove ;
+    }
+    
+    .abt-l ul{
+        display: inline-flex;
+        list-style: none;
+        color: #fff;
+    }
+    .abt-l ul li{
+        width: 300px;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .abt-l ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .abt-l ul li:hover{
+        background:white ;
+        border-radius: 3px;
+    }
+
+    .abt-l.fa{
+        margin-right: 8px;
+    }
+
+    .abt-l ul li i{
+        font-size: 500%;
+        color: #D45244;
+        padding: 40px;
+
+        border: 5px solid  #D45244;
+        padding: 10px;
+        border-radius:30px;
+    }
+
+    
+    .abt-l ul li p.ct-1{
+        top: 50%;
+        font-size: 30px;
+        color: black;
+        padding: 40px;
+
+        
+        padding: 10px;
+    }
+
+    .abt-l ul li p.m-0{
+        font-family: Arial, Helvetica, sans-serif;
+        top: 50%;
+        font-size: 15px;
+        color: black;
+        padding: 40px;
+
+        
+        padding: 10px;
+    }
+
+    .ct-2{
+        font-family: sans-serif;
+        top: 50%;
+        font-size: 14px;
+        color: black;
+        padding: 40px;
+        padding: 10px;
+    }
+
+    /* PORTFOLIO */
+
+    .portfolio{
+        background-color: #E28968;
+        height: 600px;
+        width: 100%;
+        border: none;
+
+
+    }
+    .portfolio div.logo-port .b0-1{
+        color: #393A3A;
+        font-size: 100px;
+        text-shadow: 2px 2px #E0DBCB;
+    }
+
+    .b0-2{
+        color:black;
+        padding-top: 0px ;
+        font-size: 20px;
+    }
+
+    .b0-3{
+        color:black;
+        padding-top: 0px ;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
